@@ -7,7 +7,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import org.o7planning.qlsv.user;
-
+//
 @Database(version = 2,entities = {user.class},
         autoMigrations = [@AutoMigration(from = 1,to = 2)])
 public abstract class UserDatabase extends RoomDatabase {
